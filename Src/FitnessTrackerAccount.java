@@ -1,6 +1,4 @@
-import java.util.Date;
-
-public class FitnessTracker {
+public class FitnessTrackerAccount {
     //Variables
     // /*/*/
     private String firstname;
@@ -83,10 +81,10 @@ public class FitnessTracker {
 
     //Constructor
     // /*/*/
-    public FitnessTracker() {
+    public FitnessTrackerAccount() {
     }
 
-    public FitnessTracker(String firstname, int day, int month, int year, String email, int phoneNumber, String surname, int weight, String bloodPressure, int countStep) {
+    public FitnessTrackerAccount(String firstname, int day, int month, int year, String email, int phoneNumber, String surname, int weight, String bloodPressure, int countStep) {
         this.firstname = firstname;
         this.day = day;
         this.month = month;
